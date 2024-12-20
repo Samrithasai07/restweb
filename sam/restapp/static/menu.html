@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header.banner {
+            background-color: #3c2929;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header.banner h1 {
+            margin: 0;
+        }
+
+        header.banner nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header.banner nav ul li {
+            display: inline;
+        }
+
+        header.banner nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        header.banner nav ul li a:hover {
+            color: #ff6347;
+        }
+
+        .menu {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 2em;
+            color: #372121;
+            margin-bottom: 20px;
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0;
+        }
+
+        .item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 2px solid #f4f4f4;
+        }
+
+        .item h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .item p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header class="banner">
+        <h1>*MENU*</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h2>Our Delicious Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <img src="Bibimmyeon Noodles.jpg" alt="Bibimmyeon Noodles">
+                <h3>Bibimmyeon Noodles</h3>
+                <p>Rs.300</p>
+            </div>
+
+            <div class="item">
+                <img src="Bowl Bibimbap.jpg" alt="Bowl Bibimbap">
+                <h3>Bowl Bibimbap</h3>
+                <p>Rs. 320</p>
+            </div>
+
+            <div class="item">
+                <img src="Chicken Ramen.jpg" alt="Chicken Ramen">
+                <h3>Chicken Ramen</h3>
+                <p>Rs. 210</p>
+            </div>
+
+            <div class="item">
+                <img src="Dumplings.jpg" alt="Dumplings">
+                <h3>Dumplings </h3>
+                <p>Rs. 500</p>
+            </div>
+
+            <div class="item">
+                <img src="Korean fried chicken.jpg" alt="Korean fried chicken">
+                <h3>Korean fried chicken</h3>
+                <p>Rs. 350</p>
+            </div>
+
+            <div class="item">
+                <img src="Galbi egg tteokbokki.jpg" alt="Galbi egg tteokbokki">
+                <h3>Galbi egg tteokbokki</h3>
+                <p>Rs. 250</p>
+            </div>
+
+            <div class="item">
+                <img src="Japchae.jpg" alt="Japchae">
+                <h3>Japchae</h3>
+                <p>Rs. 430</p>
+            </div>
+
+            <div class="item">
+                <img src="Kalguksu soup.jpg" alt="Kalguksu soup">
+                <h3>Kalguksu soup</h3>
+                <p>Rs. 220</p>
+            </div>
+
+            <div class="item">
+                <img src="Korean Corn Hotdog.jpg" alt="Korean Corn Hotdog">
+                <h3>Korean Corn Hotdog</h3>
+                <p>Rs. 290</p>
+            </div>
+
+            <div class="item">
+                <img src="Odeng Guk.jpg" alt="Odeng Guk">
+                <h3>Odeng Guk</h3>
+                <p>Rs. 300</p>
+            </div>
+
+            <div class="item">
+                <img src="Sushi.jpg" alt="Sushi">
+                <h3>Sushi</h3>
+                <p>Rs. 290</p>
+            </div>
+
+            <div class="item">
+                <img src="Tteokbokki.jpg" alt="Teeokbokki">
+                <h3>Tteokbokki</h3>
+                <p>Rs. 390</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Samritha R</p>
+    </footer>
+</body>
+</html> 
